@@ -21,6 +21,6 @@ public class MyServlet extends HttpServlet {
         place = (place == null) ? "London" : place;
 
         resp.getWriter().println(
-                String.format("Hi, %1 from %2, you are felling %3", name, place, mood));
+                String.format("Hi, %s from %s, you are felling %s", name, place, mood));
     }
 }
